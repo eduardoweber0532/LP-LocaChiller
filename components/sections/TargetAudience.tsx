@@ -1,10 +1,10 @@
+
 import React from 'react';
-import { Warehouse, Factory, Hospital, Beer, FlaskConical } from 'lucide-react';
+import { Warehouse, Hospital, Beer, FlaskConical } from 'lucide-react';
 
 const TargetAudience: React.FC = () => {
   const segments = [
     { label: "Laticínios", Icon: Warehouse },
-    { label: "Indústrias de médio e grande porte", Icon: Factory },
     { label: "Hospitais e clínicas", Icon: Hospital },
     { label: "Cervejarias", Icon: Beer },
     { label: "Indústrias plásticas e injetoras", Icon: FlaskConical }
@@ -22,7 +22,7 @@ const TargetAudience: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-5xl mx-auto">
           {segments.map((segment, idx) => (
             <div key={idx} className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center text-center group hover:shadow-md transition-all">
               <div className="p-4 bg-gray-50 rounded-full mb-4 text-institutional-blue group-hover:bg-institutional-blue group-hover:text-white transition-colors">

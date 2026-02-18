@@ -25,7 +25,7 @@ const FinalCtaSection: React.FC<FinalCtaSectionProps> = ({ onCtaClick }) => {
         <div className="flex flex-col items-center gap-10">
           <Button 
             onClick={onCtaClick} 
-            className="px-14 py-6 rounded-[12px] text-xl font-bold hover:scale-105"
+            className="btn-whatsapp px-14 py-6 rounded-[12px] text-xl font-bold hover:scale-105"
           >
             Falar com especialista agora
           </Button>

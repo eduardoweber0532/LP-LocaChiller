@@ -37,8 +37,8 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onCtaClick }) => {
           {/* Bloco de Texto (Esquerda) - Mais Largo */}
           <div className="w-full max-w-3xl text-left animate-fade-in-up order-1 lg:order-1 flex flex-col justify-center lg:pr-4">
             <h1 className="text-[30px] md:text-[40px] lg:text-[48px] font-extrabold text-white leading-[1.15] mb-10 tracking-normal">
-              Locação de Chiller <br /> 
-              Industrial para <br />
+              LocaChiller: Locação de <br /> 
+              Chiller Industrial para <br />
               Situações Críticas <br />
               e Temporárias
             </h1>
@@ -55,7 +55,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onCtaClick }) => {
             <div className="flex justify-start">
               <Button 
                 onClick={onCtaClick} 
-                className="px-12 py-6 rounded-[12px] text-xl font-bold hover:scale-105"
+                className="btn-whatsapp px-12 py-6 rounded-[12px] text-xl font-bold hover:scale-105"
               >
                 Falar com especialista
               </Button>
@@ -69,7 +69,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onCtaClick }) => {
               
               <img 
                 src={IMAGES.HERO_CHILLER} 
-                alt="Chiller Industrial Qualiterme" 
+                alt="Chiller Industrial LocaChiller" 
                 className="relative w-full h-auto object-contain drop-shadow-[0_40px_80px_rgba(0,0,0,0.7)]"
                 onError={(e) => { e.currentTarget.src = IMAGES.FALLBACK_HERO; }}
               />

@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const FloatingWhatsAppButton: React.FC = () => {
@@ -9,7 +8,7 @@ const FloatingWhatsAppButton: React.FC = () => {
       href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white h-16 w-16 hover:w-52 rounded-full shadow-2xl hover:scale-105 transition-all duration-500 animate-bounce-slow flex items-center overflow-hidden group"
+      className="btn-whatsapp fixed bottom-6 right-6 z-50 bg-[#25D366] text-white h-16 w-16 hover:w-52 rounded-full shadow-2xl hover:scale-105 transition-all duration-500 animate-bounce-slow flex items-center overflow-hidden group"
       aria-label="Falar no WhatsApp"
     >
       {/* Container do Ícone - Sempre centralizado na parte esquerda (círculo inicial) */}

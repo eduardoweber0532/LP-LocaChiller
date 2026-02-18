@@ -40,7 +40,7 @@ const ForWhomSection: React.FC<ForWhomSectionProps> = ({ onCtaClick }) => {
         <div className="flex flex-col items-center gap-8">
           <Button 
             onClick={onCtaClick}
-            className="px-10 py-5 rounded-xl text-lg hover:scale-105"
+            className="btn-whatsapp px-10 py-5 rounded-xl text-lg hover:scale-105"
           >
             Verificar disponibilidade para meu setor
           </Button>

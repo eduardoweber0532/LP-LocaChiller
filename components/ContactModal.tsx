@@ -72,7 +72,7 @@ const ContactModal: React.FC<ContactModalProps> = ({
           </select>
         </div>
 
-        <Button variant="primary" fullWidth type="submit" className="mt-6">
+        <Button variant="primary" fullWidth type="submit" className="btn-whatsapp mt-6">
           Continuar no WhatsApp
         </Button>
 
